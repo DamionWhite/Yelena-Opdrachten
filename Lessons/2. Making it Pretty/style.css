@@ -1,0 +1,71 @@
+/*
+1.) Assignment
+
+K:  Keyword that can be searched for on the web, example:
+    "K: Duck" Search on internet for 'Duck' for more info
+
+*/
+
+body {
+    /* 1.) Change me to another image */
+    background-image: url(backgroun.jpg);
+}
+
+h1 {
+    color: #ff0000; /* K: HEX Code */
+}
+
+h2 {
+    /* 2a.) fix me */
+    color: #ff0000;
+}
+
+h3 {
+    /* 2b.) fix me */
+    color: #ff0000;
+
+    /* 3.) Give me a background so I'm readable*/
+}
+
+/* 4.) I should be used somewhere, but I'm not working */
+/* K: CSS class */
+.spiritedAway {
+    color: #097264;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(219, 96, 25, 0.774);
+
+    width: 500px;
+    height: 100px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+div#centerMe p {
+    padding: 0;
+    margin: 0;
+}
+
+/* K: CSS id */
+#centerMe {
+    display: block;
+
+    width: 74px;
+    
+    padding: 10px 10px;
+
+    background: rgba(0, 0, 255, 0.726);
+    border: 3px solid blue;
+}
+
+.centered {
+    /* 5.) Make me center stuff */
+
+}

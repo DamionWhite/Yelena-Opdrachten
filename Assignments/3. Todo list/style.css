@@ -1,0 +1,108 @@
+* {
+    /* Reset default margin and padding */
+    margin: 0;
+    padding: 0;
+
+    /* Set a prettier default font */
+    font-family: "Corbel", Arial, Helvetica, sans-serif;
+
+    /* Clear default borders and outlines */
+    border: none;
+    outline: none;
+}
+
+body {
+    /* Set Background */
+    background-color: rgb(71, 71, 211);
+    
+    /* Make text readable */
+    color: rgb(250, 248, 248);
+}
+
+#header {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#footer {
+    /* Place footer at bottom */
+    position: absolute;
+    bottom: 0px;
+
+    /* Add some space */
+    margin: 10px;
+}
+
+#todo {
+    position: relative;
+
+    margin: 0 auto;
+    width: 700px;
+    height: 100%;
+}
+
+#todoItems {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#todoInput {
+    position: relative;
+    display: block;
+
+    height: 48px;
+    width: 100%;
+}
+
+
+#addTodo {
+    position: absolute;
+    right: 0;
+    width: 48px;
+    height: 100%;
+
+    font-size: 48px;
+    line-height: 0;
+
+    border-radius: 100%;
+
+    color: rgb(30, 86, 207);
+    background-color: rgb(89, 136, 238);
+    border: 3px solid rgb(30, 86, 207);
+
+    cursor: pointer;
+}
+
+#addTodo:hover {
+    background: rgb(125, 162, 241);
+}
+
+/* Input and Items share same shape */
+.todoItem, #todo input {
+    border-radius: 24px;
+    font-size: 24px;
+    min-height: 24px;
+    padding: 8px 12px;
+
+    border: 2px solid black;
+    
+
+}
+
+#todo input[type="text"] {
+    position: absolute;
+    left: 0;
+
+    width: calc(100% - (52px + 24px + 6px));
+
+    border-color: rgb(75, 73, 87);
+}
+
+.todoItem {
+    list-style: none;
+    background: rgb(255, 119, 69);
+    margin-bottom: 12px;
+
+    border-color: rgb(218, 86, 38);
+}
